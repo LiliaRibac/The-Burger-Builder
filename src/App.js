@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import Layout from './hoc/Layout/Layout';
-import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder'
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Layout>
-        
-        <BurgerBuilder/>
+          <BurgerBuilder />
         </Layout>
       </div>
     );
@@ -16,4 +15,3 @@ class App extends Component {
 }
 
 export default App;
-
